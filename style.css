@@ -1,1 +1,10 @@
+body {
+    background-color: black;
+    color: blue;
+}
 
+img {
+    border: 2px solid blue;
+    display: block;
+    margin: 20px auto; 
+}
