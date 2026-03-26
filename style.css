@@ -1,36 +1,33 @@
-/* The Side Panel Container */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 .sidebar {
     height: 100%;
-    width: 160px; /* Width of the sidebar */
-    position: fixed; /* Stays in place when scrolling */
-    z-index: 1; /* Stay on top */
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
     top: 0;
     left: 0;
-    background-color: #111; /* Darker black for contrast */
+    background-color: #111; 
     padding-top: 20px;
-    border-right: 1px solid blue; /* Matches your theme */
+    border-right: 1px solid blue; 
 }
 
-/* The Buttons inside the sidebar */
 .side-btn {
     padding: 15px 10px;
     text-decoration: none;
     font-size: 18px;
     color: blue;
-    display: block; /* Makes them stack vertically */
+    display: block; 
     transition: 0.3s;
     border-bottom: 1px solid #222;
 }
 
-/* Change color when hovering over buttons */
 .side-btn:hover {
     background-color: blue;
     color: black;
 }
 
-/* IMPORTANT: Adjust the main body so text doesn't hide behind the sidebar */
 body {
-    margin-left: 170px; /* Must be wider than the sidebar width */
+    margin-left: 170px;
     background-color: black;
     color: blue;
     text-align: center;
