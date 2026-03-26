@@ -1,6 +1,24 @@
 body {
     background-color: black;
     color: blue;
+    /* This centers all text, headings, and inline elements */
+    text-align: center;
+    font-family: sans-serif; /* Optional: makes the blue text easier to read */
+}
+
+img {
+    border: 2px solid blue;
+    display: block;
+    margin: 20px auto; /* Keeps the image centered */
+}
+
+/* This will also center your itch.io iframe */
+iframe {
+    margin: 20px auto;
+    display: block;
+}body {
+    background-color: black;
+    color: blue;
 }
 
 img {
