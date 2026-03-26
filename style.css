@@ -1,22 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+* {
+    font-family: 'Bungee', cursive;
+}
+
+body {
+    background-color: black;
+    color: blue;
+    text-align: center;
+    margin-left: 170px; 
+    margin-top: 50px;
+}
+
 .sidebar {
     height: 100%;
-    width: 160px; 
-    position: fixed; 
-    z-index: 1; 
+    width: 160px;
+    position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111; 
+    background-color: #111;
     padding-top: 20px;
-    border-right: 1px solid blue; 
+    border-right: 2px solid blue;
 }
 
 .side-btn {
     padding: 15px 10px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px; 
     color: blue;
-    display: block; 
+    display: block;
     transition: 0.3s;
     border-bottom: 1px solid #222;
 }
@@ -26,10 +39,15 @@
     color: black;
 }
 
-body {
-    margin-left: 170px;
-    background-color: black;
-    color: blue;
-    text-align: center;
-    font-family: sans-serif;
+img {
+    border: 3px solid blue;
+    display: block;
+    margin: 20px auto;
+}
+
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: none;
 }
